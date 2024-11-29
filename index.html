@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .drop{
+            background-color: green;
+            padding: 7px 10px;
+            width: 80px;
+            text-align: center;
+            color: white;
+        }
+        li{
+            list-style: none;
+            background-color: rgb(205, 204, 204);
+            padding: 10px;
+            left: 0;
+            margin-left: 0px;
+        }
+        ul{
+            margin-top: 0;
+            padding-inline-start: 0;
+            width: 160px;
+            visibility: hidden;
+        }
+        div:hover ul{
+            
+                visibility: visible;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <div class="drop">Dropdown</div>
+            <ul>
+                <li>Link 1</li>
+                <li>Link 1</li>
+                <li>Link 1</li>
+            </ul>
+        </div>
+</body>
+</html>
